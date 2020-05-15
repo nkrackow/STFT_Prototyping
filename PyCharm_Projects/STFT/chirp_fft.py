@@ -35,7 +35,7 @@ p2_t=np.fft.ifft(p2_fft)
 newchirp=np.append(p1_t,p2_t)
 
 plt.figure(4)
-plt.title("reconstructed chirp")
+plt.title("reconstructed chirp transition looks continous")
 plt.plot(newchirp[512-50:512+50])
 
 plt.show()
