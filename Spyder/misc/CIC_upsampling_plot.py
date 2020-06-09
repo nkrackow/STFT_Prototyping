@@ -4,7 +4,6 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-from scipy import signal, constants, interpolate
 
 
 def comp_CIC_kernel(N,R):

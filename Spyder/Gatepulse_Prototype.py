@@ -68,7 +68,7 @@ def add_noise(data):
 # %% Plotting control
 # ================================================
     
-plt.rc('font', size=20)
+plt.rc('font', size=18)
 
 plotting=True             # plot output setting
 
